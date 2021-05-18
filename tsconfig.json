@@ -1,0 +1,17 @@
+{
+   "include": ["src/**/*"],
+   "compilerOptions": {
+     "target": "es5",
+     "module": "esnext",
+     "lib": ["DOM", "ESNext"],
+     "sourceMap": true,
+     "strict": true,
+     "moduleResolution": "node",
+     "baseUrl": "./src",
+     "paths": {
+       "~/*": ["./*"]
+     },
+     "allowSyntheticDefaultImports": true,
+     "esModuleInterop": true
+   }
+ }
